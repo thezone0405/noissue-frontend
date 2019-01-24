@@ -30,9 +30,26 @@ const creativeHub = (state,action) => {
                 description: "Our custom stickers utilize soy-based inks. There are no limits on designs or colors, so go crazy! We use CMYK printing with various options around sizes and shapes."
             }
         },
-        onlineDesignIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/easy-online-icon.png",
-        rapidLeadTimeIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/repid-lead-times.png",
-        ecoFriendlyIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/echo-friendly-creative.png",
+        howItWorks:{
+            items:[
+                {
+                    title: "Easy Online Design",
+                    icon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/easy-online-icon.png",
+                    description: "Live updating platform allows you to see and change your design in real time, perfect for designing on the fly."
+                },
+                {
+                    icon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/repid-lead-times.png",
+                    title: "Rapid Lead Times",
+                    description: "With lead times as short as 10 days to at most 3 weeks, tissues and stickers will be delivered to wherever needed ASAP!"
+                },
+                {
+                    icon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/echo-friendly-creative.png",
+                    title: "Eco-Friendly Offerrings",
+                    description: "Providing sustainable options is important. Your clients get the benefits of custom packaging without harming the environment."
+                }
+            ],
+            title:"Creatively Speaking, here’s how it works:"
+        }, 
         downloadIconBag: "https://www.noissue.com.au/skin/frontend/noissue/default/images/download-psd.png",
         downloadIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/download-psd-icon.png",
         freeStuffIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/free-stuffs.png",
