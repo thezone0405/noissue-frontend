@@ -1,11 +1,12 @@
 body {
-    div#root{
-      background-color: #222;
-      color: #8EE4AF;
+  margin: 0;
+  div#root{
+    background-color: #222;
+    color: #8EE4AF;
+  }
+  ul{
+    li a{
+      color: #ffffff;
     }
-    ul{
-      li a{
-        color: #ffffff;
-      }
-    }
+  }
 }

@@ -1,18 +1,18 @@
 import App from 'components/app'
-import Dashboard from 'containers/pages/dashboard'
+import CreativeHub from 'containers/pages/creativeHub'
 
 const routes = [
     {
         component: App,
         routes:[
             {
-                component: Dashboard,
+                component: CreativeHub,
                 exact: true,
                 path:'/'
             },
             {
 				path      : '*',
-				component : Dashboard
+				component : CreativeHub
 			}
         ]
     }

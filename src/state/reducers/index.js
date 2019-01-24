@@ -1,14 +1,8 @@
 import {combineReducers} from 'redux'
-
-const initialState = (state,action) => {
-    return {
-        ...state,
-        message: "HEY WORKING"
-    }
-}
+import creativeHub from './creativeHub'
 
 const reducers = combineReducers({
-    welcome: initialState
+    creativeHub
 })
 
 export default reducers
