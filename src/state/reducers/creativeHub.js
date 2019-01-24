@@ -20,14 +20,18 @@ const creativeHub = (state,action) => {
         heroes:{
             tissue:{
                 bg: "https://www.noissue.com.au/skin/frontend/noissue/default/images/creative-tissue-bg.jpg",
-                title: "Our Tissue",
-                description: "All of our tissue is acid free and utilizes only soy-based inks, making it completely biodegradable. We also looked at our supply chain and made sure that right from the source, it is the best it can be for the planet. That's why, all of our tissue is FSC (Forest Stewardship Council) approved.",
-                tissueIcons: "https://www.noissue.com.au/skin/frontend/noissue/default/images/creative-tissue-logo.png"
+                content:{
+                    title: "Our Tissue",
+                    description: "All of our tissue is acid free and utilizes only soy-based inks, making it completely biodegradable. We also looked at our supply chain and made sure that right from the source, it is the best it can be for the planet. That's why, all of our tissue is FSC (Forest Stewardship Council) approved.",
+                    icon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/creative-tissue-logo.png"
+                }                
             },
             sticker:{
                 bg: "https://www.noissue.com.au/skin/frontend/noissue/default/images/custom-stckr-bg.jpg",
-                title: "Custom Stickers",
-                description: "Our custom stickers utilize soy-based inks. There are no limits on designs or colors, so go crazy! We use CMYK printing with various options around sizes and shapes."
+                content:{
+                    title: "Custom Stickers",
+                    description: "Our custom stickers utilize soy-based inks. There are no limits on designs or colors, so go crazy! We use CMYK printing with various options around sizes and shapes."
+                }
             }
         },
         howItWorks:{
@@ -49,10 +53,12 @@ const creativeHub = (state,action) => {
                 }
             ],
             title:"Creatively Speaking, here’s how it works:"
-        }, 
-        downloadIconBag: "https://www.noissue.com.au/skin/frontend/noissue/default/images/download-psd.png",
-        downloadIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/download-psd-icon.png",
-        freeStuffIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/free-stuffs.png",
+        },
+        freeStuff:{
+            downloadIconBag: "https://www.noissue.com.au/skin/frontend/noissue/default/images/download-psd.png",
+            downloadIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/download-psd-icon.png",
+            icon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/free-stuffs.png"
+        },
         partnersIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/noissue-partner.png",
         noissueParrotIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/logo-right.png",
         stickerCircle: "https://www.noissue.com.au/skin/frontend/noissue/default/images/custom-stckr-circle.jpg",
