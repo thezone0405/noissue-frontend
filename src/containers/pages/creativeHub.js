@@ -6,6 +6,7 @@ import WelcomeHero from 'components/welcomeHero'
 import HowItWorks from 'components/howItWorks'
 import FreeStuff from 'components/freeStuff'
 import Hero from 'components/Hero'
+import ProductInfo from 'components/productInfo'
 
 class CreativeHub extends Component{
     render(){
@@ -16,7 +17,9 @@ class CreativeHub extends Component{
                 <HowItWorks howItWorks={this.props.creativeHub.howItWorks}/>
                 <FreeStuff freeStuff={this.props.creativeHub.freeStuff}/>
                 <Hero type="tissue" heroes={this.props.creativeHub.heroes}/>
+                <ProductInfo type="size" productInfos={this.props.creativeHub.productInfos} />
                 <Hero type="sticker" align="left" heroes={this.props.creativeHub.heroes}/>
+                <ProductInfo type="sticker" productInfos={this.props.creativeHub.productInfos} />
             </div>
         )
     }

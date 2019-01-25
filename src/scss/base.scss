@@ -12,6 +12,24 @@ body {
     clear: both;
   }
 }
+.text-red{
+  color: #FD566F
+}
+.text-center{
+  text-align: center;
+}
+.link-text-center{
+  color: #393972;
+  font-family: "Oswald","Open Sans",sans-serif;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+  &:hover{
+    color: #393972;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
