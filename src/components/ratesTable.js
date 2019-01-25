@@ -91,11 +91,11 @@ const Tables = (props) => {
 
 
 const RatesTable = props => (
-    <Wrapper>
+    <Wrapper className={props.type}>
         <h2>{props.rates.title}</h2>    
         <h5>{props.rates.note}</h5>
         <Tables tables={props.rates.tables}/>
-        <p className="text-center"><a class="link-text-center" href="https://more.com">Need More? Click Here.</a></p>
+        <p className="text-center"><a className="link-text-center" href="https://more.com">Need More? Click Here.</a></p>
     </Wrapper>
 )
 

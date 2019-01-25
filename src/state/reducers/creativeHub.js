@@ -217,9 +217,11 @@ const creativeHub = (state,action) => {
                 }
             }
         },
-        partnersIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/noissue-partner.png",
-        noissueParrotIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/logo-right.png"
-                
+        cta:{
+            partnersIcon: "https://www.noissue.com.au/skin/frontend/noissue/default/images/noissue-partner.png",
+            p1: "We have a brilliant reputation built as a result of our low minimum order quantities, free shipping worldwide, and quick turn-around times.",
+            p2: "You do the hard work by designing, we'll make sure everything else is taken care of. We would welcome the opportunity to further discuss how our values align and the benefits we would share as partners."
+        }   
     }
 }
 

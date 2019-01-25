@@ -33,7 +33,9 @@ const Wrapper = styled.div`
     background: #ebf4fa;
     min-height: 400px;
     padding: 3% 18%;
-
+    .sticker{
+        padding-bottom: 8%;
+    }
     h2{
         font-family: "Oswald","Open Sans",sans-serif;
         text-align: center;
@@ -127,7 +129,7 @@ const ProductInfo = props => (
         <WrapGridList>
             <GridList infos={props.productInfos[props.type].infos}/>
         </WrapGridList>
-        <RatesTable rates={props.productInfos[props.type].rates} />
+        <RatesTable type={props.type} rates={props.productInfos[props.type].rates} />
     </Wrapper>
 )
 

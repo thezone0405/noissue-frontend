@@ -7,6 +7,7 @@ import HowItWorks from 'components/howItWorks'
 import FreeStuff from 'components/freeStuff'
 import Hero from 'components/Hero'
 import ProductInfo from 'components/productInfo'
+import CTAContent from 'components/ctaContent'
 
 class CreativeHub extends Component{
     render(){
@@ -20,6 +21,7 @@ class CreativeHub extends Component{
                 <ProductInfo type="size" productInfos={this.props.creativeHub.productInfos} />
                 <Hero type="sticker" align="left" heroes={this.props.creativeHub.heroes}/>
                 <ProductInfo type="sticker" productInfos={this.props.creativeHub.productInfos} />
+                <CTAContent cta={this.props.creativeHub.cta} />
             </div>
         )
     }
