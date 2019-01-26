@@ -12,6 +12,14 @@ const Wrapper = styled.div`
         margin: 0 auto;
         margin-top: -180px;
         margin-bottom: 30px;
+        @media(max-width:1700px){
+            max-width:200px;
+            margin-top:-150px;
+        }
+        @media(max-width:1400px){
+            max-width:180px;
+            margin-top:-120px;
+        }
     }
     h2{
         font-family: "Oswald","Open Sans",sans-serif;

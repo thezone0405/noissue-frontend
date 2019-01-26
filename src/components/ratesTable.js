@@ -48,6 +48,14 @@ const Wrapper = styled.div`
             font-weight: bold;
             font-size: 18px;
             color: #393972;
+            @media(max-width:1070px){
+                padding: 15px;
+                font-size: 15px;
+            }
+            @media(max-width:880px){
+                padding: 5px;
+                font-size: 12px;
+            }
         }
     }
 `

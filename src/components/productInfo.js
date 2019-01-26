@@ -35,6 +35,21 @@ const Wrapper = styled.div`
     padding: 3% 18%;
     .sticker{
         padding-bottom: 8%;
+        @media(max-width:1200px){
+            padding-bottom: 12%;
+        }
+        @media(max-width:930px){
+            padding-bottom: 17%;
+        }
+        @media(max-width:850px){
+            padding-bottom: 20%;
+        }
+        @media(max-width:750px){
+            padding-bottom: 25%;
+        }
+        @media(max-width:650px){
+            padding-bottom: 35%;
+        }
     }
     h2{
         font-family: "Oswald","Open Sans",sans-serif;
