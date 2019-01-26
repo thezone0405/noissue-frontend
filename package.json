@@ -20,7 +20,7 @@
     "url": "https://github.com/thezone0405/noissue-simple-form/issues"
   },
   "engines" : { 
-    "node" : ">=10.14"
+    "node" : "10.14.2"
   },
   "homepage": "https://github.com/thezone0405/noissue-simple-form#readme",
   "devDependencies": {
