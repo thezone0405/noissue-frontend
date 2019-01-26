@@ -5,7 +5,7 @@ import Header from 'components/header'
 import WelcomeHero from 'components/welcomeHero'
 import HowItWorks from 'components/howItWorks'
 import FreeStuff from 'components/freeStuff'
-import Hero from 'components/Hero'
+import Hero from 'components/hero'
 import ProductInfo from 'components/productInfo'
 import CTAContent from 'components/ctaContent'
 

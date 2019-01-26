@@ -8,7 +8,7 @@
     "dev": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open",
     "unit-test": "jest test/unit-test --watch",
     "start": "node server.js",
-    "heroku-postbuild": "babel-node ./node_modules/webpack/bin/webpack"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build"
   },
   "repository": {
     "type": "git",
