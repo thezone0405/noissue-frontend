@@ -4,9 +4,11 @@
   "description": "Boiler plate for react SSR and REDUX with webpack babel 7 and jest",
   "main": "index.js",
   "scripts": {
-    "webpack": "babel-node ./node_modules/webpack/bin/webpack",
-    "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open",
-    "unit-test": "jest test/unit-test --watch"
+    "build": "babel-node ./node_modules/webpack/bin/webpack",
+    "dev": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open",
+    "unit-test": "jest test/unit-test --watch",
+    "start": "node server.js",
+    "heroku-postbuild": "babel-node ./node_modules/webpack/bin/webpack"
   },
   "repository": {
     "type": "git",
