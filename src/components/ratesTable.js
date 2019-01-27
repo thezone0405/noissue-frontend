@@ -42,6 +42,10 @@ const Wrapper = styled.div`
                 padding: 5px;
                 font-size: 13px;
             }
+            @media(max-width:375px){
+                padding: 2px;
+                font-size: 11px;
+            }
         }
         tbody{
             background: #ffffff;
@@ -63,6 +67,10 @@ const Wrapper = styled.div`
             @media(max-width:880px){
                 padding: 5px;
                 font-size: 13px;
+            }
+            @media(max-width:375px){
+                padding: 2px;
+                font-size: 11px;
             }
         }
     }

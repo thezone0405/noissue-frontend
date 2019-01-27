@@ -7,12 +7,20 @@ const Wrapper = styled.div`
     background-size: cover;
     max-width: 100%;
     min-height: 240px;
-    text-align: ${prop=>prop.align||'center'}
+    text-align: ${prop=>prop.align||'center'};
+    @media(max-width:500px){
+        img{
+            width:100%;
+        }
+    }
     h2{
         font-family: "Oswald","Open Sans",sans-serif;
         color: #ffffff;
         font-size: 30px;
         margin-bottom:12px;
+        @media(max-width: 1650px){
+            text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.8);
+        }
     }
     p{
         font-size: 18px;
@@ -20,6 +28,9 @@ const Wrapper = styled.div`
         font-weight: 300;
         color: #ffffff;
         margin-bottom: 40px;
+        @media(max-width: 1650px){
+            text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.8);
+        }
         @media(max-width: 1200px){
             font-size: 15px;
             line-height: 19px

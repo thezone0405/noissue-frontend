@@ -33,6 +33,9 @@ const Wrapper = styled.div`
     background: #ebf4fa;
     min-height: 400px;
     padding: 3% 18%;
+    @media(max-width:500px){
+        padding: 3% 0;
+    }
     .sticker{
         padding-bottom: 8%;
         @media(max-width:1200px){

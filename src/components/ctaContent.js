@@ -7,6 +7,7 @@ const Wrapper = styled.div`
     background: #ffffff;
     min-height: 200px;
     padding: 3% 18%;
+    position:relative;
     img{
         max-width: 100%;
         margin: 0 auto;
