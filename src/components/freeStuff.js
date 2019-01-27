@@ -40,6 +40,10 @@ const Btn = styled(Button)`
     height: auto !important;
     font-family: "Oswald","Open Sans",sans-serif !important;
     border-radius: 5px;
+    @media(max-width:1024px){
+        font-size: 15px !important;
+        padding: 10px 20px !important;
+    }
 `
 const DLBtn = styled(Button)`
     border: none !important;
@@ -61,6 +65,9 @@ const ContentWrap = styled.div`
     text-align: center;
     .DL-wrap{
         background: #d9d9e3;
+    }
+    @media(max-width: 765px){
+        margin-top: 40px;
     }
 `
 

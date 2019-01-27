@@ -34,6 +34,14 @@ const Wrapper = styled.div`
             font-weight: 300;
             padding:20px;
             text-align: center;
+            @media(max-width:1070px){
+                padding: 15px;
+                font-size: 15px;
+            }
+            @media(max-width:880px){
+                padding: 5px;
+                font-size: 13px;
+            }
         }
         tbody{
             background: #ffffff;
@@ -54,7 +62,7 @@ const Wrapper = styled.div`
             }
             @media(max-width:880px){
                 padding: 5px;
-                font-size: 12px;
+                font-size: 13px;
             }
         }
     }
